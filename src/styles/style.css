@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
-
+* {
+    transition: all .1s ease-in;
+}
 h1 {
     font-family: 'Open Sans';
     font-size: 48px;
@@ -79,6 +81,7 @@ nav ul li a:active {
 nav ul li a:hover {
     text-decoration: none;
     color:  #070707;
+    /*font-weight: 700;*/ /*віглядає не дуже*/
 }
 .photo {
     padding-top: 92px;
@@ -175,6 +178,9 @@ footer ul {
 }
 footer ul a {
    margin: 0 25px;
+}
+footer ul a:hover {
+    opacity: 0.5;
 }
 footer span {
     width: 200px;
