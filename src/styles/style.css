@@ -155,16 +155,17 @@ footer h2 {
     margin-bottom: 20px;
 }
 footer p {
+    max-width: 300px;
     margin-bottom: 60px;
 }
-footer button {
+.footer__button {
     width: 180px;
-    height: 44px;
+    line-height: 44px;
+    text-decoration: none;
+    text-align: center;
     background-color: #070707;
     border-radius: 22px;
-    border: none;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     color: white;
